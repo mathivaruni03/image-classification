@@ -18,34 +18,18 @@ Model training and evaluation
 🛠️ Installation & Setup
 1️⃣ Clone the Repository
 Open Git Bash or a terminal and run:
-
-bash
-Copy
-Edit
 git clone https://github.com/mathivaruni03/image-classification.git
 cd image-classification
 2️⃣ Create a Virtual Environment (Optional but Recommended)
-bash
-Copy
-Edit
 python -m venv env
 source env/bin/activate  # For MacOS/Linux
 env\Scripts\activate  # For Windows
 3️⃣ Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 (If requirements.txt is not available, manually install dependencies as below.)
 
-bash
-Copy
-Edit
 pip install tensorflow keras numpy matplotlib seaborn opencv-python
 4️⃣ Run Jupyter Notebook
-bash
-Copy
-Edit
 jupyter notebook
 Open Image Classification with Data Augmentation.ipynb
 
